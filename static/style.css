@@ -1,0 +1,67 @@
+
+  .h1 {
+    text-align: center;
+    color: red;
+    background-color: bisque;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  h1 {
+    text-align: center;
+    color: blue;
+  }
+  .button {
+    width: 30%;
+    text-align: center;
+    margin: auto;
+  }
+  .btn1 {
+    padding: 8px 15px;
+    background-color: black;
+    color: white;
+  }
+  .btn2 {
+    padding: 8px 15px;
+    background-color: red;
+    color: black;
+  }
+  .btn3 {
+    padding: 20px 20px;
+    background-color: rgba(32, 140, 135, 0.753);
+    color: red;
+    border: 5px dotted cyan;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+  #imagescont {
+    width: 30%;
+    height: 150px;
+    margin: auto;
+    margin-top: 30px;
+  }
+  #cont{
+    color: red;
+    font-size: 25px;
+    margin-top: 5px;
+    padding: 10px 0;
+  }
+  .ludobutton {
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .animateimg:hover{
+      animation: images 2s infinite linear;
+
+  }
+
+  @keyframes images {
+    from {
+        transform: rotate(0deg);
+    }
+    to{
+    transform: rotate(360deg);
+
+    }
+  }
